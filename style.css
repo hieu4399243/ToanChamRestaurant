@@ -1924,8 +1924,8 @@ p {
         margin: 0;
     }
 
-    .scrolltop {
-        bottom: 130px;
+    .scrolltop{
+        display: none;
     }
 
     .footer-menu ul {
@@ -1996,6 +1996,11 @@ p {
         height: 75vw;
         min-height: 60vw;
         width: auto;
+    }
+
+    .scrolltop{
+        display: none;
+
     }
 
     .header-logo img {
