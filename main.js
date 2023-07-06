@@ -162,7 +162,7 @@ jQuery(window).on('load', function () {
                 ease: "none"
             }, 0);
             animation.to(targets[activeTab], {
-                color: "#e5b243",
+                color: "#12100b",
                 ease: "none"
             }, 0);
 
