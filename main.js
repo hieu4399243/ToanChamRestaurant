@@ -159,11 +159,13 @@ jQuery(window).on('load', function () {
 
             animation.to(targets[old], {
                 color: "#0d0d25",
-                ease: "none"
+                ease: "none",
+                background:"none"
             }, 0);
             animation.to(targets[activeTab], {
                 color: "#12100b",
-                ease: "none"
+                ease: "none",
+                background:"#e5b243"
             }, 0);
 
         }
